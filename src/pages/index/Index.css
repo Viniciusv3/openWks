@@ -1,0 +1,79 @@
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 130px;
+}
+.content{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.functions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 0vh;
+}
+.functions .models select{
+    width: 25vh;
+    height: 4vh;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #2F1381;
+    color: #fff;
+}
+
+.functions .changes{
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+input[type = 'file']{
+    display: none;
+}
+
+.inputFile label{
+    padding: 10px;
+    width: 25vh;
+    height: 4vh;
+    background: #2F1381;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .1s;
+    border-radius: 15px;
+}
+
+.inputFile label:hover{
+    color: #2F1381;
+    background: #fff;
+    border: 2px solid #2F1381;
+
+}
+
+.text {
+    margin: 15px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.text input{
+    background: none;
+    border: none;
+    border-bottom: solid 1px;
+}
